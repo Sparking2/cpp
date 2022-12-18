@@ -3,4 +3,6 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpp src/main.cpp)
+add_subdirectory(src/easy/hello-world)
+add_subdirectory(src/easy/input-output)
+
